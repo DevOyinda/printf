@@ -32,10 +32,6 @@ int (*_select_func(const char c))(va_list)
 		return (_print_x);
 	else if (c == 'X')
 		return (_print_X);
-	else if (c == 'r')
-		return (_print_Rev);
-	else if (c == 'R')
-		return (_print_rot);
 
 	return (NULL);
 }
